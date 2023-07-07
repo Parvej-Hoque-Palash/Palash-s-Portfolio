@@ -1,0 +1,56 @@
+.resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80vw;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #374859;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+.resume__page {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  color: black;
+}
+.resume__card {
+  padding: 10px 15px;
+  text-align: center;
+  color: black;
+  background-color: rgb(234, 234, 234);
+  border-radius: 15px;
+  flex: 1 0 50%;
+}
+.download__btn {
+  display: flex;
+}
+.download__pdf {
+  text-decoration: none;
+}
+.download__icon {
+  font-size: medium;
+}
+@media screen and (min-width: 768px) {
+  .resume__card {
+    flex: 1 0 35%;
+  }
+  .resume__page {
+    gap: 100px;
+  }
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 1024px) {
+  .resume__card {
+    flex: 1 0 30%;
+  }
+  .resume__page {
+    gap: 100px;
+  }
+}

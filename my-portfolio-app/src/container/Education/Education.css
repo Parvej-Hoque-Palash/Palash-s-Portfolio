@@ -1,0 +1,19 @@
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80vw;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #374859;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.education__page{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.show__result{
+    padding-top: 30px;
+    text-align: left;
+}

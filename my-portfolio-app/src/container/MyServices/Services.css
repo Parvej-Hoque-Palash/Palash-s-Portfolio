@@ -1,0 +1,43 @@
+.services {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #374859;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 100px;
+}
+.services__page {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.service__details {
+  text-align: start;
+  width: 30%;
+  padding: 15px 15px;
+  color: black;
+  background-color: rgb(234, 234, 234);
+  border-radius: 20px;
+  flex: 1 0 50%;
+}
+.service__details img {
+  width: 100%;
+}
+.service__description {
+  height: 25vh;
+  overflow: auto;
+}
+@media screen and (min-width: 768px) {
+  .service__card {
+    flex: 1 0 35%;
+  }
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 1024px) {
+  .service__card {
+    flex: 1 0 30%;
+  }
+}

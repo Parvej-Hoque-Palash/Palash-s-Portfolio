@@ -1,0 +1,38 @@
+.projects {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #374859;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 100px;
+}
+.projects__page {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.project__details {
+  width: 30%;
+  padding: 15px 15px;
+  background-color: rgb(234, 234, 234);
+  border-radius: 20px;
+  flex: 1 0 50%;
+}
+.project__details img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .project__card {
+    flex: 1 0 35%;
+  }
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 1024px) {
+  .project__card {
+    flex: 1 0 30%;
+  }
+}

@@ -1,0 +1,67 @@
+.about__page {
+  padding-top: 10vh;
+  background-color: #374859;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  gap: 20px;
+  padding-bottom: 60px;
+}
+.about__card {
+  flex: 1 0 50%;
+}
+.general__info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 15px 10px;
+}
+.general__info h3 {
+  color: green;
+}
+.my__photo {
+  width: 150px;
+  height: 150px;
+}
+.my__photo img {
+  width: 100%;
+  border-radius: 50%;
+}
+.my__name {
+}
+.about__description {
+  width: 70%;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 15px 10px;
+  flex: 1 0 300px;
+}
+.about__description h3 {
+  color: green;
+}
+
+@media screen and (min-width: 768px) {
+  .about__card {
+    flex: 1 0 33%;
+  }
+  .about__description{
+    flex: 1 0 60%;
+  }
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 1024px) {
+  .about__card {
+    flex: 1 0 30%;
+  }
+  .about__description{
+    flex: 1 0 60%;
+  }
+}
